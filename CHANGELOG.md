@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/Randagio13/states-service/compare/v1.0.1...v1.0.2) (2022-01-24)
+
+
+### Bug Fixes
+
+* Force module export ([71506e9](https://github.com/Randagio13/states-service/commit/71506e95007b5da756eb3d94a3add63c96e9be46))
+
 ## [1.0.1](https://github.com/Randagio13/states-service/compare/v1.0.0...v1.0.1) (2022-01-24)
 
 
