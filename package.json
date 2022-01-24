@@ -5,8 +5,8 @@
   "description": "Get the World's states",
   "repository": "https://github.com/Randagio13/states-service.git",
   "license": "MIT",
-  "main": "lib/index.js",
   "typings": "lib/index.d.ts",
+  "module": "lib/index.js",
   "keywords": [
     "world",
     "states",
