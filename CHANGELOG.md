@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/Randagio13/states-service/compare/v1.0.2...v1.0.3) (2022-02-06)
+
+
+### Bug Fixes
+
+* Export State type ([89adede](https://github.com/Randagio13/states-service/commit/89adede5569a2d7028e82b23b3c00242336929ce))
+
 ## [1.0.2](https://github.com/Randagio13/states-service/compare/v1.0.1...v1.0.2) (2022-01-24)
 
 
