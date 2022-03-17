@@ -1,5 +1,5 @@
 // @ts-ignore
-import states from './data/states.json'
+import states from '../data/states.json'
 import { dataFiltered, sorter } from './utils'
 
 export type Translations =
