@@ -14,13 +14,13 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: 14
+          node-version: 17
       - name: Install dependencies
         run: npm i
-      - name: Run specs
-        run: npm test
       - name: Run package
         run: npm run build
+      - name: Run specs
+        run: npm test
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
