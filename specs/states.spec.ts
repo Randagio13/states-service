@@ -1,4 +1,4 @@
-import { States } from '../lib'
+import { States } from '../lib/cjs'
 
 describe('States.getStates', () => {
   it('Get all states', () => {
@@ -37,7 +37,7 @@ describe('States.getStates', () => {
     expect(c).toBeDefined()
     expect(c[0]).toHaveProperty('name')
     expect(c[0].name).toBe('Abruzzo')
-    expect(c).toHaveLength(179)
+    expect(c).toHaveLength(180)
   })
   it('Get italians regions and locale', () => {
     const c = States.getStates({
@@ -139,5 +139,17 @@ describe('States.getStates', () => {
     expect(c[0]).toHaveProperty('name')
     expect(c[0].name).toBe('Provincia di Agrigento')
     expect(c).toHaveLength(109)
+  })
+  it('Get state of the US filter by country and state code', () => {
+    const c = States.getStates({
+      filters: {
+        country_code: 'US',
+        state_code: 'DC',
+      },
+    })
+    expect(c).toBeDefined()
+    expect(c[0]).toHaveProperty('name')
+    expect(c[0].name).toBe('District of Columbia')
+    expect(c).toHaveLength(1)
   })
 })
