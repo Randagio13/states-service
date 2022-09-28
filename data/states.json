@@ -15750,6 +15750,19 @@
     "country_code": "IT",
     "country_id": 107,
     "translations": {
+      "it": "Valle D'Aosta"
+    },
+    "name": "Valle D'Aosta"
+  },
+  {
+    "state_code": "AO",
+    "id": 6000,
+    "longitude": "7.42618660",
+    "is_region": false,
+    "latitude": "45.73888780",
+    "country_code": "IT",
+    "country_id": 107,
+    "translations": {
       "it": "Provincia D'Aosta"
     },
     "name": "Province of Aosta"
@@ -15809,6 +15822,19 @@
     "country_code": "IT",
     "country_id": 107,
     "name": "Campania"
+  },
+  {
+    "state_code": "CI",
+    "id": 6001,
+    "longitude": "8.58031944",
+    "is_region": false,
+    "latitude": "39.32580278",
+    "country_code": "IT",
+    "country_id": 107,
+    "translations": {
+      "it": "Provincia di Carbonia-Iglesias"
+    },
+    "name": "Province of Carbonia-Iglesias"
   },
   {
     "state_code": "45",
