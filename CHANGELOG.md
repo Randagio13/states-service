@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/Randagio13/states-service/compare/v1.1.0...v1.1.1) (2022-09-29)
+
+
+### Bug Fixes
+
+* Typo Valle D'Aosta to Aosta Valley ([b42dc75](https://github.com/Randagio13/states-service/commit/b42dc75af47153adb7d95d9fe4a951de21365355))
+
 # [1.1.0](https://github.com/Randagio13/states-service/compare/v1.0.3...v1.1.0) (2022-03-17)
 
 
